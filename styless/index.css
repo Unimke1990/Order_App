@@ -1,6 +1,7 @@
 body {
     background-color: rgb(1, 9, 22);
     color: #fff;
+    user-select: none;
 }
 
 header{
@@ -22,7 +23,7 @@ header{
 
 /* styling the input */
 input {
-    max-width: 50px;
+    max-width: 40px;
     padding: 5px;
     border: none;
     border-radius: 5px;
@@ -33,3 +34,23 @@ input {
     font-weight: 600;
 }
 
+#price {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 6px;
+    font-size: 20px;
+    border: none;
+    font-weight: 600;
+    background-color: rgb(11, 238, 185);
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+}
+
+button:hover {
+    color:#fff;
+    padding: 8px;
+}
