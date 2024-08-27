@@ -28,4 +28,6 @@ input {
     border-radius: 5px;
     font: 25px;
     text-align: center;
+    background-color: rgb(159, 51, 5);
+    color: #fff;
 }
