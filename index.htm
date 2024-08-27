@@ -12,9 +12,14 @@
     </header>
     <div class="container">
         <p>How many packs do you want?</p>
-        <p>Quantity: <input type="number"/> <span id="price">Price:</span><strike>N</strike> <span id="amount">0</span></p>
-        <p><button type="button">Place Order</button></p>
+        <p class="place-order">
+        Quantity: <input type="number" id="quantity"/>
+        <span id="price">Price: </span>
+        <strike>N</strike>
+        <span id="amount">0</span>
+    </p>
+        <p><button type="button" onclick="place_order()">Place Order</button></p>
     </div>
-    
+    <script src="index.js"></script>
 </body>
 </html>
