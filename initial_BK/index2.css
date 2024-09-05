@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(1, 9, 22);
+    color: #fff;
+    user-select: none;
+}
+
+header{
+    font-size: 30px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(159, 51, 5);
+    color: rgb(129, 235, 241);
+    display: flex;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+}
+
+/* styling the input */
+input {
+    max-width: 40px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    font: 25px;
+    text-align: center;
+    background-color: rgb(159, 51, 5);
+    color: #fff;
+    font-weight: 600;
+}
+
+#price {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 6px;
+    font-size: 20px;
+    border: none;
+    font-weight: 600;
+    background-color: rgb(8, 230, 171);
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+}
+
+button:hover {
+    color:#dff0f5;
+    padding: 8px;
+}
